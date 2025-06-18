@@ -408,7 +408,7 @@ namespace _02_Arrays
              */
             #endregion
             #region ArrayMethods
-            /*
+            
             Console.OutputEncoding = Encoding.UTF8;
 
             int[] myArr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };

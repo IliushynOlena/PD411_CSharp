@@ -96,6 +96,16 @@ namespace _04_IntroToOOP
             p.MovePoint(-10, -100);
             Console.WriteLine(p);
 
+            Point[] point = new Point[5]; 
+            point[0] = p;
+            point[1] = new Point(5,4);
+
+            p.Address = "Rivne";
+            p.Age = 100;
+            Console.WriteLine(p.Address);//getter
+            Console.WriteLine(p.Age);//getter;
+
+
         }
     }
 }

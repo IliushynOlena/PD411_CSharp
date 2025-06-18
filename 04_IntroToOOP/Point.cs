@@ -1,4 +1,6 @@
-﻿namespace _04_IntroToOOP
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace _04_IntroToOOP
 {
     partial class Point
     {
@@ -24,7 +26,7 @@
     {
         private int xCoord;
         //Properties
-        public int XCoord//(value)
+        public int XCoord   //(value)
         {
             get { return xCoord; }
             set
@@ -58,6 +60,21 @@
         //    set { name = value; }
         //}
         //Auto property ---> prop + Tab
+        public string Address { get; set; }
+
+        private int age;
+        public int Age//value = 100
+        {
+            get { return age; }
+            set
+            {
+                if (value > 0 && value < 150)
+                    age = value;
+                else
+                    age = 0;
+            }
+        }
+
         public string Name { get; set; }
         //Full property
         private int length;
