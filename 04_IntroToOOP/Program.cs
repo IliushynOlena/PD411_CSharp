@@ -96,7 +96,19 @@ namespace _04_IntroToOOP
             p.MovePoint(-10, -100);
             Console.WriteLine(p);
 
-            Point[] point = new Point[5]; 
+            Point[] point = new Point[5];
+            try
+            {
+                for (int i = 0; i < point.Length; i++)
+                {
+                    point[i].Age = int.Parse(Console.ReadLine()!);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+          
             point[0] = p;
             point[1] = new Point(5,4);
 

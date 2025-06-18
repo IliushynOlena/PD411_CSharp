@@ -27,8 +27,10 @@
   
     internal class Program
     {
+      
         static void MethodWithParams(string name,params int[] marks)
         {
+           
             Console.WriteLine("------------- " + name + " --------------");
             foreach (var mark in marks)
             {
