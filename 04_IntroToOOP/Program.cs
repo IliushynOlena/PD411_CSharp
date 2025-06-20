@@ -15,6 +15,8 @@ namespace _04_IntroToOOP
     }
     partial class Point : Object //internal
     {
+        private NewPoint newPoint;
+        public NewPoint NewPoint { get; set; }
         //public 
         //private (default for field)
         //protected
@@ -35,7 +37,7 @@ namespace _04_IntroToOOP
         //{
         //    this.id = id;
         //}
-     
+
         private static int count;
         static Point()
         {

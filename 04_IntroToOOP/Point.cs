@@ -22,6 +22,7 @@ namespace _04_IntroToOOP
         public int getYCoord() { return yCoord; }
 
     }
+
     partial class Point
     {
         private int xCoord;

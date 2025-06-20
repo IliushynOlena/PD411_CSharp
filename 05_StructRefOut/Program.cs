@@ -24,6 +24,31 @@
         public int M { get; set; }
         public int S { get; set; }
     }
+    class Worker
+    {
+        //private int age;
+
+        //void setAge(int age) { }
+        //int getAge() { return age; }
+        /// <summary>
+        /// /Full property
+        /// </summary>
+        private int age;
+        public int Age//value
+        {
+            get { return age; }
+            set {
+
+                if (value > 0 && value <= 125)
+                    age = value;
+                else age = 0;
+            }
+        }
+        //Auto property
+        public string Name { get; set; }
+
+
+    }
   
     internal class Program
     {
