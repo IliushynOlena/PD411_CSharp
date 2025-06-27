@@ -184,7 +184,9 @@
             manager.Organize();
 
             IWorkable worka = admin;
-            worka.Work();   
+            worka.Work();
+            //Example interfaces
+            //https://github.com/IliushynOlena/cs_interfaces
 
 
 
