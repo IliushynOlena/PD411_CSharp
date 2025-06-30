@@ -135,6 +135,7 @@
                 Position = "Ceo",
                 Salary = 5000000
             };
+            
            // director.Salary = 1000000000;
             Console.WriteLine(director);
             director.Organize();
