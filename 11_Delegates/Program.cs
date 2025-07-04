@@ -159,7 +159,7 @@
             } while (key != 0);
             */
             Console.WriteLine("..........................");
-            // SuperClass superClass = new SuperClass();
+             SuperClass superClass = new SuperClass();
             // //superClass.Print("Hello");
 
             // //Console.WriteLine(SuperClass.GetKoef()); 
@@ -171,10 +171,17 @@
             // Console.WriteLine(deleg?.Invoke());
             // Console.WriteLine(deleg());
 
-            //DoubleDelegate[] doubleDelegate = new DoubleDelegate[2] {
-            //     SuperClass.GetKoef,
-            //     superClass.GetNumber
-            //};
+            DoubleDelegate[] doubleDelegate = new DoubleDelegate[2] {
+                 SuperClass.GetKoef,
+                 superClass.GetNumber
+            };
+            int key = int.Parse("Enter operation : ");
+            if (key >= 0 && key < doubleDelegate.Length) 
+            {
+                doubleDelegate[key - 1].Invoke();
+             }
+
+
 
             // Console.WriteLine(doubleDelegate[0]?.Invoke());
             // Console.WriteLine(doubleDelegate[1]?.Invoke());
