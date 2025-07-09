@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             //(Garbage Collector).
+            //https://github.com/IliushynOlena/c_sharp_GC
 
             int a = 5;
             string str = "Hello 1";
