@@ -35,9 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_EventCallBackFunction", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_01_ExtensionMethod", "12_01_ExtensionMethod\12_01_ExtensionMethod.csproj", "{23F80704-0822-4FB3-893C-A04CBD419FF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_GarbageCollector", "13_GarbageCollector\13_GarbageCollector.csproj", "{A55C8951-D65F-473C-803D-D9A8FDC7EAFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_GarbageCollector", "13_GarbageCollector\13_GarbageCollector.csproj", "{A55C8951-D65F-473C-803D-D9A8FDC7EAFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Dictionary", "14_Dictionary\14_Dictionary.csproj", "{FDF63FA7-41CC-4703-A7B2-BB3BA8277870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Dictionary", "14_Dictionary\14_Dictionary.csproj", "{FDF63FA7-41CC-4703-A7B2-BB3BA8277870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_01_Collection", "15_01_Collection\15_01_Collection.csproj", "{AD86B0EA-5747-4F5D-853A-4113A489102A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_02_Generics", "15_02_Generics\15_02_Generics.csproj", "{045E0DC0-0907-487E-9DE0-C115A156CD80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{FDF63FA7-41CC-4703-A7B2-BB3BA8277870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDF63FA7-41CC-4703-A7B2-BB3BA8277870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDF63FA7-41CC-4703-A7B2-BB3BA8277870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD86B0EA-5747-4F5D-853A-4113A489102A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD86B0EA-5747-4F5D-853A-4113A489102A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD86B0EA-5747-4F5D-853A-4113A489102A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD86B0EA-5747-4F5D-853A-4113A489102A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045E0DC0-0907-487E-9DE0-C115A156CD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045E0DC0-0907-487E-9DE0-C115A156CD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045E0DC0-0907-487E-9DE0-C115A156CD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045E0DC0-0907-487E-9DE0-C115A156CD80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
