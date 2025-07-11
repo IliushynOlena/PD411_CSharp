@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_GarbageCollector", "13_G
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Dictionary", "14_Dictionary\14_Dictionary.csproj", "{FDF63FA7-41CC-4703-A7B2-BB3BA8277870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_01_Collection", "15_01_Collection\15_01_Collection.csproj", "{AD86B0EA-5747-4F5D-853A-4113A489102A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_01_Collection", "15_01_Collection\15_01_Collection.csproj", "{AD86B0EA-5747-4F5D-853A-4113A489102A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_02_Generics", "15_02_Generics\15_02_Generics.csproj", "{045E0DC0-0907-487E-9DE0-C115A156CD80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_02_Generics", "15_02_Generics\15_02_Generics.csproj", "{045E0DC0-0907-487E-9DE0-C115A156CD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_WorkWithFile", "16_WorkWithFile\16_WorkWithFile.csproj", "{B7190F47-E46D-4157-85AF-13BB6F4D1B9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{045E0DC0-0907-487E-9DE0-C115A156CD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{045E0DC0-0907-487E-9DE0-C115A156CD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{045E0DC0-0907-487E-9DE0-C115A156CD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7190F47-E46D-4157-85AF-13BB6F4D1B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7190F47-E46D-4157-85AF-13BB6F4D1B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7190F47-E46D-4157-85AF-13BB6F4D1B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7190F47-E46D-4157-85AF-13BB6F4D1B9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
