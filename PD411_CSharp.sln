@@ -47,13 +47,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_WorkWithFile", "16_WorkW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_01_DirectoriesFiles", "16_01_DirectoriesFiles\16_01_DirectoriesFiles.csproj", "{D6960DB8-0FAF-4D44-BBEC-A365B3049FB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_01_Attributes", "17_01_Attributes\17_01_Attributes.csproj", "{12AA6F7B-9FCC-4A46-BD2F-04C34AD8F603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_01_Attributes", "17_01_Attributes\17_01_Attributes.csproj", "{12AA6F7B-9FCC-4A46-BD2F-04C34AD8F603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_2_BinarySerialize", "17_2_BinarySerialize\17_2_BinarySerialize.csproj", "{B1A3CA8A-3DBF-46FB-AC26-8E1B7FB2CFB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_2_BinarySerialize", "17_2_BinarySerialize\17_2_BinarySerialize.csproj", "{B1A3CA8A-3DBF-46FB-AC26-8E1B7FB2CFB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_3_XML_JsonSerialization", "17_3_XML_JsonSerialization\17_3_XML_JsonSerialization.csproj", "{6F4E4B7E-D65C-4C9B-B1A5-0E45A2256B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_3_XML_JsonSerialization", "17_3_XML_JsonSerialization\17_3_XML_JsonSerialization.csproj", "{6F4E4B7E-D65C-4C9B-B1A5-0E45A2256B60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_4_DataAnnotations", "17_4_DataAnnotations\17_4_DataAnnotations.csproj", "{6705566F-2323-48A1-AAFF-FC1BFA9916CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_4_DataAnnotations", "17_4_DataAnnotations\17_4_DataAnnotations.csproj", "{6705566F-2323-48A1-AAFF-FC1BFA9916CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_RegularExpression", "18_RegularExpression\18_RegularExpression.csproj", "{EA3FC504-0EAB-4E59-9993-C71A267EF24C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{6705566F-2323-48A1-AAFF-FC1BFA9916CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6705566F-2323-48A1-AAFF-FC1BFA9916CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6705566F-2323-48A1-AAFF-FC1BFA9916CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3FC504-0EAB-4E59-9993-C71A267EF24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3FC504-0EAB-4E59-9993-C71A267EF24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3FC504-0EAB-4E59-9993-C71A267EF24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3FC504-0EAB-4E59-9993-C71A267EF24C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
