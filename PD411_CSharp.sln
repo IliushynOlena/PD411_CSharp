@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_3_XML_JsonSerialization"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_4_DataAnnotations", "17_4_DataAnnotations\17_4_DataAnnotations.csproj", "{6705566F-2323-48A1-AAFF-FC1BFA9916CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_RegularExpression", "18_RegularExpression\18_RegularExpression.csproj", "{EA3FC504-0EAB-4E59-9993-C71A267EF24C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_RegularExpression", "18_RegularExpression\18_RegularExpression.csproj", "{EA3FC504-0EAB-4E59-9993-C71A267EF24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_LINQ", "19_LINQ\19_LINQ.csproj", "{5E13ACFF-F332-4F4E-A6EA-9DF0D103D8EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{EA3FC504-0EAB-4E59-9993-C71A267EF24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA3FC504-0EAB-4E59-9993-C71A267EF24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA3FC504-0EAB-4E59-9993-C71A267EF24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E13ACFF-F332-4F4E-A6EA-9DF0D103D8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E13ACFF-F332-4F4E-A6EA-9DF0D103D8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E13ACFF-F332-4F4E-A6EA-9DF0D103D8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E13ACFF-F332-4F4E-A6EA-9DF0D103D8EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
